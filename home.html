@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Old Troll And Everyone Else</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif; color: rgb(51, 51, 51)}
+.green{background-color: #214f34; color: white;}
+.header {
+	color: #EAEAEA;
+	font-family: serif;
+	text-shadow: rgba(0, 0, 0, 0.498) -1px -1px 0px, rgba(0, 0, 0, 0.498) -1px 1px 0px, rgba(0, 0, 0, 0.498) 1px 1px 0px, rgba(0, 0, 0, 0.498) 1px -1px 0px;
+	outline-color:  #214f34
+}
+
+.book-box {
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25); padding: 3px;
+	max-width: 203px;
+}
+
+.amazon-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f0c14b; /* Amazon's yellow */
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+	  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25); 
+}
+	
+.container {
+  display: flex; /* Makes the container a flex container */
+}
+
+.section {border-top: 1px solid gray; }
+
+.small-column {
+  flex: 1; /* Assigns a flex factor of 1, making it a smaller portion */
+  /* Or set a fixed width: */
+  /* width: 25%; */ 
+}
+
+.wide-column {
+  flex: 2; /* Assigns a flex factor of 2, making it twice as wide as the small column */
+  /* Or use flex: 1 0 0% to fill the remaining space: */
+  /* flex: 1 0 0%; */
+  /* Or set a fixed width and let the other column fill: */
+  /* width: 75%; */
+}
+
+/* For responsiveness (optional, but recommended) */
+@media (max-width: 600px) { /* Example breakpoint for smaller screens */
+  .container {
+    flex-direction: column; /* Stacks columns vertically */
+  }
+  .small-column, .wide-column {
+    width: 100%; /* Makes each column take full width */
+  }
+  
+  h5.subtitle {
+	font-size: 16px;
+  }
+  
+  h1.title {
+	font-size: 38px;
+  }
+}	
+	
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+		
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-center green">
+	 <a href="#" class="w3-button">Home</a>
+	 <a href="top-10-troll-stories-of-all-times" class="w3-button">Top 10 Troll Stories of All Times</a>
+  </div>
+</div>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <div class="w3-container w3-content w3-center" style="max-width:800px">
+    <h1 style="text-align:center; font-size:46px;" class="w3-wide header title">The Old Troll And Everyone Else</h1>
+   	<h5 class="w3-opacity w3-padding-8 subtitle"><i>Children's Books | Scandinavian Folklore | Fantasy and Fairy Tales</i></h3>
+
+    <div class="w3-row w3-padding-24">
+	
+		<H4 class="w3-row w3-header" style="border-top: 1px solid gray; padding-top: 12px">NEW BOOK: STORIES OF THE OLD TROLL</H4>
+	  
+		
+		<div class="container">
+		  <div class="small-column">
+				<p class="w3-center">
+
+				<img  class="book-box" srcset="https://static.wixstatic.com/media/6f8e5d_26990feddaab4026a63796638dfe950a~mv2.jpg/v1/fill/w_205,h_304,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Troll-Cover-Small_JPG.jpg 1x, https://static.wixstatic.com/media/6f8e5d_26990feddaab4026a63796638dfe950a~mv2.jpg/v1/fill/w_410,h_608,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Troll-Cover-Small_JPG.jpg 2x" id="img_comp-m1uu0h9y" src="https://static.wixstatic.com/media/6f8e5d_26990feddaab4026a63796638dfe950a~mv2.jpg/v1/fill/w_205,h_304,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Troll-Cover-Small_JPG.jpg" alt="The Old Troll sneaking into the village"></a>
+				
+				<br/>
+
+
+				<div><a href="https://www.amazon.com/dp/B0DJGNMLSC" target="_self" class="amazon-button">Buy on Amazon</a></div>
+					
+			</p>
+		  </div>
+		  <div class="wide-column">
+			 <p class="w3-justify">
+			  
+				<span style="color:#292929;">Step into the enchanting Dark Forest and follow the escapades of the grumpy 
+					Old Troll in these original stories inspired by Scandinavian folk tales.<br />
+					<br />
+					No matter how much his friend Olle, a little kind-hearted gnome, tries 
+					to keep him out of trouble, the next disaster is always waiting for the 
+					Old Troll just around the corner.<br />
+					<br />
+					Like that time when he gets in a scrap with the scary Bog Witch and her 
+					minions, or runs into the vicious Troll Hunter, or when an ancient 
+					Mountain Bridge collapses under his feet... How does he manage to wiggle
+					 out? Does he learn anything from his trials? Well, pick up the book and
+					 find out what happens then!
+				</span>
+			  
+			  </p>
+		  </div>
+		</div>
+	</div>
+
+	<div class="w3-row w3-padding-24">
+	
+	  	<div class="green w3-container w3-content w3-padding-24 " style="max-width:800px">
+			<H4 class="w3-row w3-header" style="text-align: center">COMING SOON: THE LITTLE WITCH OF SKOGGEVILLE</H4>
+			
+			  <div class="container">
+				  <div class="wide-column">
+					 <p class="w3-justify">
+					  
+					  
+						Elin doesn’t believe in magic—not after it failed to save her mother. Living in a quiet village near the shadowy Dark Forest, she wants nothing more than to protect what’s left of her family. But when her father falls ill and nothing else works, Elin sets off on a daring quest with a secret recipe for a mysterious potion.
+						<br /><br />	
+						
+						Can she brave the dark woods? Can she survive the deadly swamp? And will she solve the ancient riddle before time runs out?
+						<br /><br />
+						
+						"The Little Witch of Skoggevile" is a tale woven with folklore and grit, following a girl who learns that sometimes, becoming what you fear is the only way to save what you love.
+
+					 </p>
+					
+				  </div>
+				  <div class="small-column">
+					
+					<p class="w3-center">
+
+						<div><img class="book-box" src="little-witch-cover.jpg" />
+	
+					</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" />
+	
+  	<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-xlarge">
+		<p class="w3-medium">© 2025 Iggy Reiss&nbsp; •&nbsp; <a href="mailto:theoldtrollstories@gmail.com" target="_self" class="wixui-rich-text__text">theoldtrollstories@gmail.com</a></p>
+	
+	</footer>
+  
+<!-- End Page Content -->
+</div>
+
+
+
+</body>
+</html>
